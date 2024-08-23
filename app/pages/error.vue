@@ -1,7 +1,7 @@
 <script setup lang="ts">
 definePageMeta({ layout: 'page' })
 useHead({ title: 'Test Page' })
-const url = 'https://api.ayaka.icu/img/url'
+const url = 'http://api.ayaka.icu/img/url'
 const urlImg = ref(url)
 
 const switchImg = () => {
